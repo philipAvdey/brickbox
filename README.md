@@ -5,13 +5,8 @@ This React application allows users to search for LEGO sets and add them to a wi
 ## Table of Contents
 
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Technologies](#technologies)
-- [API Integration](#api-integration)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
