@@ -1,0 +1,38 @@
+.list {
+  border-radius: 12px;
+  width: 40vw;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.list_container {
+  border-radius: 12px;
+  background-color: white;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 10px;
+  overflow: hidden;
+  overflow-y: auto;
+  &::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.list_clear-wishlist {
+  min-height: 60px;
+  width: 100%;
+  background: white;
+  color: black;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  border: none;
+  margin-bottom: 5px;
+  border-radius: 15px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 4px 8px;
+  &:hover {
+    background: var(--primary-yellow);
+    color: black;
+  }
+}

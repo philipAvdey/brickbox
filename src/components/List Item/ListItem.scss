@@ -1,0 +1,33 @@
+.searchbar__list-item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin: 5px;
+}
+
+.searchbar__list-item_img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100px;
+  height: 100px;
+  flex-shrink: 0;
+
+  img {
+    max-height: 100%;
+    max-width: 100%;
+  }
+}
+.searchbar__list-item_info {
+  p {
+    margin: 0 0 8px 0;
+    width: fit-content;
+  }
+}
+
+.searchbar__list-item_info_add-to-list {
+  &:hover {
+    color: var(--primary-red);
+    cursor: pointer;
+  }
+}

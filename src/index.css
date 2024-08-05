@@ -1,0 +1,13 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  --primary-red: #E3010B;
+  --primary-yellow: #FCD503;
+}
+
+body{
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
