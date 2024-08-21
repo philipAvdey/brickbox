@@ -1,30 +1,40 @@
-# React + TypeScript + Vite
+# Brickbox - the simple LEGO wishlist app!
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This React application allows users to search for LEGO sets and add them to a wishlist. Users can then view store pages for the LEGO sets in their wishlist. The app is built with Vite, TypeScript, and SCSS. [Rebrickable](https://rebrickable.com/home/) was used to fetch data about LEGO sets. Basic build deployed [here](https://philip-avdey-brickbox.netlify.app/).
 
-Currently, two official plugins are available:
+## Table of Contents
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- [Features](#features)
+- [Usage](#usage)
+- [Technologies](#technologies)
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+- Search for LEGO sets from a list taken from Rebrickable [here](https://rebrickable.com/downloads/).
+- Add LEGO sets to a wishlist.
+- View store pages for the LEGO sets in the wishlist.
+- Responsive design.
 
-- Configure the top-level `parserOptions` property like this:
+## Usage
 
-```js
-export default {
-  // other rules...
-  parserOptions: {
-    ecmaVersion: 'latest',
-    sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json', './tsconfig.app.json'],
-    tsconfigRootDir: __dirname,
-  },
-}
-```
+1. **Search for LEGO sets:**
+   - Use the search bar to find LEGO sets by name or set number.
 
-- Replace `plugin:@typescript-eslint/recommended` to `plugin:@typescript-eslint/recommended-type-checked` or `plugin:@typescript-eslint/strict-type-checked`
-- Optionally add `plugin:@typescript-eslint/stylistic-type-checked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and add `plugin:react/recommended` & `plugin:react/jsx-runtime` to the `extends` list
+2. **Add to wishlist:**
+   - Click on a LEGO set in the search results to add it to your wishlist.
+
+3. **View store pages:**
+   - A LEGO set in your wishlist will have links to the [LEGO shop](https://www.lego.com/en-au) as well as [Bricklink](https://www.bricklink.com/v2/main.page).
+
+## Technologies
+
+- **React**: A JavaScript library for building user interfaces.
+- **Vite**: A fast build tool and development server.
+- **TypeScript**: A typed superset of JavaScript.
+- **SCSS**: A CSS preprocessor for better styling capabilities.
+- **Rebrickable API**: An API to search and retrieve information about LEGO sets.
+
+---
+
+**Author:** Philip Avdey
+**Email:** philipavdey@gmail.com
