@@ -1,6 +1,6 @@
 # Brickbox - the simple LEGO wishlist app!
 
-This React application allows users to search for LEGO sets and add them to a wishlist. Users can then view store pages for the LEGO sets in their wishlist. The app is built with Vite, TypeScript, and SCSS. [Rebrickable](https://rebrickable.com/home/) was used to fetch data about LEGO sets. 
+This React application allows users to search for LEGO sets and add them to a wishlist. Users can then view store pages for the LEGO sets in their wishlist. The app is built with Vite, TypeScript, and SCSS. [Rebrickable](https://rebrickable.com/home/) was used to fetch data about LEGO sets. Basic build deployed [here](https://philip-avdey-brickbox.netlify.app/).
 
 ## Table of Contents
 
